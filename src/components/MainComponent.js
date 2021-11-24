@@ -7,7 +7,7 @@ import Home from './HomeComponent';
 import Contact from './ContactComponent';
 import About from './AboutComponent';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
-import { Connect } from 'react-redux';
+import { connect } from 'react-redux';
 
 const mapStateToProps = state => {
     return {
